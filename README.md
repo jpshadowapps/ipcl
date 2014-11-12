@@ -1,21 +1,25 @@
-# ipcl [![Build Status](https://drone.io/github.com/goldeneggg/ipcl/status.png)](https://drone.io/github.com/goldeneggg/ipcl/latest) [![GoDoc](https://godoc.org/github.com/goldeneggg/ipcl?status.png)](https://godoc.org/github.com/goldeneggg/ipcl) [![MIT License](http://img.shields.io/badge/license-MIT-lightgrey.svg)](https://github.com/goldeneggg/ipcl/blob/master/LICENSE)
-* __ipcl__ is IP addresses calculator from CIDR.
+ipcl [![Build Status](https://drone.io/github.com/goldeneggg/ipcl/status.png)](https://drone.io/github.com/goldeneggg/ipcl/latest) [![GoDoc](https://godoc.org/github.com/goldeneggg/ipcl?status.png)](https://godoc.org/github.com/goldeneggg/ipcl) [![MIT License](http://img.shields.io/badge/license-MIT-lightgrey.svg)](https://github.com/goldeneggg/ipcl/blob/master/LICENSE)
+==========
+
+__ipcl__ is IP addresses calculator from CIDR.
+
 
 ## Install
 
-```
-% go get github.com/goldeneggg/ipcl
-% ls $GOBIN/ipcl
-ipcl
-```
-
-## Binary download link
+### Binary download link
 * [linux_amd64](https://drone.io/github.com/goldeneggg/ipcl/files/artifacts/bin/linux_amd64/ipcl)
 * [linux_386](https://drone.io/github.com/goldeneggg/ipcl/files/artifacts/bin/linux_386/ipcl)
 * [darwin_amd64](https://drone.io/github.com/goldeneggg/ipcl/files/artifacts/bin/darwin_amd64/ipcl)
 * [darwin_386](https://drone.io/github.com/goldeneggg/ipcl/files/artifacts/bin/darwin_386/ipcl)
 * [windows_amd64](https://drone.io/github.com/goldeneggg/ipcl/files/artifacts/bin/windows_amd64/ipcl.exe)
 * [windows_386](https://drone.io/github.com/goldeneggg/ipcl/files/artifacts/bin/windows_386/ipcl.exe)
+
+### For developers
+
+```
+% go get github.com/goldeneggg/ipcl
+```
+
 
 ## Usage
 
@@ -96,3 +100,17 @@ source_cidr     network mask    host_num        min_address     max_address     
 192.168.1.0/28  192.168.1.0     255.255.255.240 14      192.168.1.1     192.168.1.14    192.168.1.15
 192.168.1.0/2   192.0.0.0       192.0.0.0       1073741822      192.0.0.1       255.255.255.254 255.255.255.255
 ```
+
+
+## Contact
+
+* Bugs: [issues](https://github.com/goldeneggg/ipcl/issues)
+
+
+## ChangeLog
+[CHANGELOG](CHANGELOG) file for details.
+
+
+## License
+
+[LICENSE](LICENSE) file for details.
